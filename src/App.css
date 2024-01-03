@@ -1,0 +1,103 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Radley');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Quattrocento:wght@700&display=swap');
+
+/* Universal */
+@media (prefers-reduced-motion: no-preference) {
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+ }
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+p {
+  font-size: 14px;
+  font-family: 'Lora';
+}
+a {
+  color: black!important;
+  text-decoration: none !important;
+}
+.container_center{
+  text-align: center; 
+}
+/* .wrapper {
+  max-width: 700px;
+} */
+
+/* Navbar */
+.toggler{
+  font-family: 'Quattrocento';
+  font-size: 16px !important;
+  border: none !important;
+  padding: 0px !important;
+  color: black !important;
+  margin-bottom: 10px;
+}
+a.nav-link {
+ font-family: 'Quattrocento';
+}
+#navbarNav {
+  justify-content: end;
+  align-items: center;
+}
+
+/* Cover */
+.cover_image1 {
+  margin: 10px;
+  text-align: center !important;
+  width: 100%; 
+  /* max-width: 700px; */
+  object-fit: cover !important;
+}
+.cover_image2 {
+  text-align: center !important;
+  width: 100% !important; 
+  /* max-width: 700px; */
+  object-fit: cover !important;
+}
+.flower {
+  text-align: center !important;
+  width: 100%;
+  max-width: 350px;
+
+}
+/* Home */
+.home_image {
+  text-align: center !important;
+  width: 100%;
+  /* max-width: 700px; */
+  object-fit: cover;
+}
+.story_col {
+  text-align: center !important;
+  width: 100% !important;
+  max-width: 1000px;
+  margin: auto;
+}
+.location {
+  margin-bottom: 60px;
+}
+
+/* Party */
+.party_flower {
+  text-align: center !important;
+  width: 100%;
+  max-width: 350px;
+  margin-top: 20px;
+
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
